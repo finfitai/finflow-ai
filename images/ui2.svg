@@ -1,0 +1,136 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="Inter, sans-serif">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0B0F14"/>
+
+  <!-- Sidebar -->
+  <rect width="180" height="500" fill="#121821"/>
+  <rect x="0" y="0" width="180" height="500" fill="#121821"/>
+
+  <!-- Logo area -->
+  <rect x="16" y="16" width="148" height="32" rx="6" fill="#19202a"/>
+  <text x="30" y="37" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Outfit">debbit</text>
+
+  <!-- Nav items -->
+  <rect x="12" y="70" width="156" height="32" rx="6" fill="#9D4EDD" opacity="0.2"/>
+  <rect x="20" y="81" width="10" height="10" rx="2" fill="#9D4EDD"/>
+  <text x="38" y="91" fill="#9D4EDD" font-size="12">Overview</text>
+
+  <rect x="20" y="121" width="10" height="10" rx="2" fill="#6B7280"/>
+  <text x="38" y="131" fill="#6B7280" font-size="12">Cash Flow</text>
+
+  <rect x="20" y="161" width="10" height="10" rx="2" fill="#6B7280"/>
+  <text x="38" y="171" fill="#6B7280" font-size="12">Transactions</text>
+
+  <rect x="20" y="201" width="10" height="10" rx="2" fill="#6B7280"/>
+  <text x="38" y="211" fill="#6B7280" font-size="12">Invoices</text>
+
+  <rect x="20" y="241" width="10" height="10" rx="2" fill="#6B7280"/>
+  <text x="38" y="251" fill="#6B7280" font-size="12">Inventory</text>
+
+  <rect x="20" y="281" width="10" height="10" rx="2" fill="#ED9CB1"/>
+  <text x="38" y="291" fill="#ED9CB1" font-size="12">AI CFO</text>
+
+  <!-- Main Content -->
+  <!-- Header -->
+  <text x="200" y="40" fill="#FFFFFF" font-size="20" font-weight="700">Dashboard Overview</text>
+  <text x="200" y="58" fill="#6B7280" font-size="11">Thursday, 29 May 2026</text>
+
+  <!-- KPI Cards -->
+  <!-- Card 1 -->
+  <rect x="196" y="75" width="138" height="75" rx="8" fill="#121821" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="210" y="98" fill="#9CA3AF" font-size="10">Total Revenue</text>
+  <text x="210" y="120" fill="#FFFFFF" font-size="18" font-weight="700">RM 48,320</text>
+  <text x="210" y="138" fill="#10B981" font-size="10">↑ 12.4%</text>
+
+  <!-- Card 2 -->
+  <rect x="344" y="75" width="138" height="75" rx="8" fill="#121821" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="358" y="98" fill="#9CA3AF" font-size="10">Expenses</text>
+  <text x="358" y="120" fill="#FFFFFF" font-size="18" font-weight="700">RM 31,750</text>
+  <text x="358" y="138" fill="#EF4444" font-size="10">↑ 3.1%</text>
+
+  <!-- Card 3 -->
+  <rect x="492" y="75" width="138" height="75" rx="8" fill="#121821" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="506" y="98" fill="#9CA3AF" font-size="10">Net Profit</text>
+  <text x="506" y="120" fill="#FFFFFF" font-size="18" font-weight="700">RM 16,570</text>
+  <text x="506" y="138" fill="#10B981" font-size="10">↑ 8.7%</text>
+
+  <!-- Card 4 -->
+  <rect x="640" y="75" width="138" height="75" rx="8" fill="#121821" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="654" y="98" fill="#9CA3AF" font-size="10">Cash Balance</text>
+  <text x="654" y="120" fill="#FFFFFF" font-size="18" font-weight="700">RM 22,180</text>
+  <text x="654" y="138" fill="#9D4EDD" font-size="10">Healthy</text>
+
+  <!-- Chart Area -->
+  <rect x="196" y="165" width="435" height="200" rx="8" fill="#121821" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="212" y="188" fill="#FFFFFF" font-size="13" font-weight="600">Revenue vs Expenses</text>
+
+  <!-- Chart Lines (simplified) -->
+  <!-- Grid lines -->
+  <line x1="230" y1="200" x2="610" y2="200" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <line x1="230" y1="220" x2="610" y2="220" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <line x1="230" y1="240" x2="610" y2="240" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <line x1="230" y1="260" x2="610" y2="260" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <line x1="230" y1="280" x2="610" y2="280" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <line x1="230" y1="300" x2="610" y2="300" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <line x1="230" y1="340" x2="610" y2="340" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- Revenue line -->
+  <polyline points="250,320 310,295 370,270 430,260 490,245 550,230 610,215" fill="none" stroke="#9D4EDD" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Revenue area fill -->
+  <polygon points="250,320 310,295 370,270 430,260 490,245 550,230 610,215 610,345 250,345" fill="#9D4EDD" opacity="0.08"/>
+
+  <!-- Expense line -->
+  <polyline points="250,335 310,325 370,315 430,320 490,305 550,310 610,300" fill="none" stroke="#ED9CB1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- X-axis labels -->
+  <text x="248" y="358" fill="#6B7280" font-size="9">Dec</text>
+  <text x="308" y="358" fill="#6B7280" font-size="9">Jan</text>
+  <text x="368" y="358" fill="#6B7280" font-size="9">Feb</text>
+  <text x="428" y="358" fill="#6B7280" font-size="9">Mar</text>
+  <text x="488" y="358" fill="#6B7280" font-size="9">Apr</text>
+  <text x="548" y="358" fill="#6B7280" font-size="9">May</text>
+  <text x="600" y="358" fill="#9CA3AF" font-size="9" font-weight="600">Jun</text>
+
+  <!-- Right panel: AI CFO -->
+  <rect x="641" y="165" width="137" height="200" rx="8" fill="#121821" stroke="rgba(237,156,177,0.2)" stroke-width="1"/>
+  <text x="655" y="185" fill="#ED9CB1" font-size="10" font-weight="600">AI CFO INSIGHTS</text>
+
+  <rect x="651" y="195" width="117" height="42" rx="4" fill="#19202a"/>
+  <text x="660" y="210" fill="#9CA3AF" font-size="9">Margin dropped 2.1%</text>
+  <text x="660" y="223" fill="#9CA3AF" font-size="9">Coffee costs ↑ RM4.50</text>
+  <text x="660" y="236" fill="#ED9CB1" font-size="8">Adjust pricing +RM0.50</text>
+
+  <rect x="651" y="245" width="117" height="32" rx="4" fill="#19202a"/>
+  <text x="660" y="260" fill="#9CA3AF" font-size="9">Milk Batch #802</text>
+  <text x="660" y="273" fill="#F59E0B" font-size="8">Expires in 2 days</text>
+
+  <rect x="651" y="285" width="117" height="32" rx="4" fill="#19202a"/>
+  <text x="660" y="300" fill="#10B981" font-size="9">LHDN Compliant</text>
+  <text x="660" y="313" fill="#6B7280" font-size="8">May reconciliation ✓</text>
+
+  <!-- Recent Transactions -->
+  <rect x="196" y="378" width="582" height="106" rx="8" fill="#121821" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="212" y="398" fill="#FFFFFF" font-size="13" font-weight="600">Recent Transactions</text>
+
+  <!-- Table header -->
+  <text x="212" y="415" fill="#6B7280" font-size="9">Date</text>
+  <text x="290" y="415" fill="#6B7280" font-size="9">Description</text>
+  <text x="480" y="415" fill="#6B7280" font-size="9">Category</text>
+  <text x="580" y="415" fill="#6B7280" font-size="9" text-anchor="end">Amount</text>
+  <line x1="208" y1="419" x2="772" y2="419" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <text x="212" y="433" fill="#9CA3AF" font-size="10">29 May</text>
+  <text x="290" y="433" fill="#FFFFFF" font-size="10">Caffe Latte x14</text>
+  <text x="480" y="433" fill="#9CA3AF" font-size="10">Sales</text>
+  <text x="580" y="433" fill="#10B981" font-size="10" text-anchor="end">+RM 84.00</text>
+
+  <text x="212" y="450" fill="#9CA3AF" font-size="10">28 May</text>
+  <text x="290" y="450" fill="#FFFFFF" font-size="10">Coffee Beans Restock</text>
+  <text x="480" y="450" fill="#9CA3AF" font-size="10">Inventory</text>
+  <text x="580" y="450" fill="#EF4444" font-size="10" text-anchor="end">-RM 320.00</text>
+
+  <text x="212" y="467" fill="#9CA3AF" font-size="10">28 May</text>
+  <text x="290" y="467" fill="#FFFFFF" font-size="10">Invoice #INV-0042 Paid</text>
+  <text x="480" y="467" fill="#9CA3AF" font-size="10">Invoice</text>
+  <text x="580" y="467" fill="#10B981" font-size="10" text-anchor="end">+RM 1,250.00</text>
+</svg>
