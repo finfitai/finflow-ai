@@ -15,20 +15,42 @@
         .feature-block { padding-bottom: 80px; border-bottom: 1px solid var(--border-light); margin-bottom: 80px; }
         .feature-block:last-child { border: none; margin-bottom: 0; }
         .feature-block h2 { font-size: 36px; margin-bottom: 16px; color: var(--brand-primary); }
+        .feature-block p.desc { font-size: 18px; color: var(--text-secondary); margin-bottom: 32px; }
         .feature-ul { list-style: none; margin-bottom: 40px; }
         .feature-ul li { margin-bottom: 12px; font-size: 16px; position: relative; padding-left: 24px; }
-        .feature-ul li::before { content: '\2192'; position: absolute; left: 0; color: var(--brand-accent); }
+        .feature-ul li::before { content: '→'; position: absolute; left: 0; color: var(--brand-accent); }
+        .ui-screenshot { width: 100%; height: 300px; background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; display: flex; align-items: center; justify-content: center; color: var(--text-secondary); font-family: var(--font-head); }
     </style>
 </head>
 <body>
-    <div class="ambient-bg"><div class="orb orb-pink"></div><div class="orb orb-purple"></div><div class="noise-overlay"></div></div>
+    <div class="ambient-bg">
+        <div class="orb orb-pink"></div>
+        <div class="orb orb-purple"></div>
+        <div class="noise-overlay"></div>
+    </div>
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
-            <div class="logo"><a href="index.html" style="text-decoration: none;"><svg viewBox="0 0 350 120" xmlns="http://www.w3.org/2000/svg" width="120" height="40"><text x="10" y="85" font-family="'Outfit', sans-serif" font-weight="800" font-size="90" fill="#FFFFFF" letter-spacing="-4">debbit</text><rect x="154" y="52" width="34" height="8" rx="2" fill="#ED9CB1" /><rect x="154" y="68" width="34" height="8" rx="2" fill="#ED9CB1" /></svg></a></div>
-            <div class="nav-links"><a href="features.html" class="active">Features</a><a href="pricing.html">Pricing</a><a href="industries.html">Industries</a></div>
-            <div class="nav-buttons"><a href="dashboard.html" class="btn btn-secondary">Login</a><a href="demo.html" class="btn btn-primary">Book Demo</a></div>
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none;">
+                    <svg viewBox="0 0 350 120" xmlns="http://www.w3.org/2000/svg" width="120" height="40">
+                        <text x="10" y="85" font-family="'Outfit', sans-serif" font-weight="800" font-size="90" fill="#FFFFFF" letter-spacing="-4">debbit</text>
+                        <rect x="154" y="52" width="34" height="8" rx="2" fill="#ED9CB1" />
+                        <rect x="154" y="68" width="34" height="8" rx="2" fill="#ED9CB1" />
+                    </svg>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="features.html" class="active">Features</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="industries.html">Industries</a>
+            </div>
+            <div class="nav-buttons">
+                <a href="dashboard.html" class="btn btn-secondary">Login</a>
+                <a href="demo.html" class="btn btn-primary">Book Demo</a>
+            </div>
         </div>
     </nav>
+
     <div class="container features-layout">
         <div class="sidebar">
             <h4 style="margin-bottom: 1.5rem; padding-left: 16px;">The Matrix</h4>
@@ -41,15 +63,84 @@
                 <li><a href="#whatsapp">WhatsApp Integration</a></li>
             </ul>
         </div>
+
         <div class="content">
-            <div class="feature-block reveal" id="accounting"><h3 style="color:var(--text-primary);margin-bottom:8px;">Accounting &amp; Finance</h3><h2>Automated bookkeeping, built for real businesses</h2><ul class="feature-ul"><li>Real-time profit &amp; loss</li><li>Expense tracking</li><li>Invoice creation</li><li>Financial reports on demand</li></ul><p style="color:var(--brand-accent);font-weight:bold;font-size:18px;">No manual entries. No reconciliation headaches.</p><div class="img-wrap img-wrap-tall"><img src="images/ui1.jpg" alt="Accounting Dashboard"></div></div>
-            <div class="feature-block reveal" id="inventory"><h3 style="color:var(--text-primary);margin-bottom:8px;">Inventory Management</h3><h2>Know exactly what you have, and what you earned</h2><ul class="feature-ul"><li>FIFO batch tracking</li><li>Expiry date monitoring</li><li>Supplier cost tracking</li><li>Real-time stock visibility</li></ul><p style="color:var(--brand-accent);font-weight:bold;font-size:18px;">Understand true margins down to the product level.</p><div class="img-wrap img-wrap-tall"><img src="images/ui2.jpg" alt="Inventory Flow"></div></div>
-            <div class="feature-block reveal" id="compliance"><h3 style="color:var(--text-primary);margin-bottom:8px;">Compliance Engine</h3><h2>Stay compliant without thinking about it</h2><ul class="feature-ul"><li>LHDN e-Invoicing (Malaysia)</li><li>Automated statutory calculations</li><li>Audit-ready records</li><li>Tax-ready reporting</li></ul><p style="color:var(--brand-accent);font-weight:bold;font-size:18px;">Compliance is no longer a task. It's automatic.</p></div>
-            <div class="feature-block reveal" id="pos"><h3 style="color:var(--text-primary);margin-bottom:8px;">Point of Sale (POS)</h3><h2>Fast, reliable, and built for real-world usage</h2><ul class="feature-ul"><li>Offline-first system</li><li>Syncs when internet is available</li><li>Multi-device support</li><li>Simple checkout experience</li></ul><p style="color:var(--brand-accent);font-weight:bold;font-size:18px;">Sell without interruptions.</p></div>
-            <div class="feature-block reveal" id="ai"><h3 style="color:var(--text-primary);margin-bottom:8px;">AI CFO</h3><h2>Your financial intelligence layer</h2><ul class="feature-ul"><li>Cash flow predictions</li><li>Profitability insights</li><li>Anomaly detection</li><li>Business recommendations</li></ul><p style="color:var(--brand-accent);font-weight:bold;font-size:18px;">Know what's happening and what to do next.</p><div class="img-wrap img-wrap-tall"><img src="images/ui3.jpg" alt="AI Phone App" style="object-position:center;"></div></div>
-            <div class="feature-block reveal" id="whatsapp"><h3 style="color:var(--text-primary);margin-bottom:8px;">WhatsApp Integration</h3><h2>Run operations through chat</h2><ul class="feature-ul"><li>Log expenses via WhatsApp</li><li>Check stock instantly</li><li>Simple commands in natural language</li></ul><p style="color:var(--brand-accent);font-weight:bold;font-size:18px;">No training required.</p></div>
+            <div class="feature-block reveal" id="accounting">
+                <h3 style="color: var(--text-primary); margin-bottom: 8px;">Accounting &amp; Finance</h3>
+                <h2>Automated bookkeeping, built for real businesses</h2>
+                <ul class="feature-ul">
+                    <li>Real-time profit &amp; loss</li>
+                    <li>Expense tracking</li>
+                    <li>Invoice creation</li>
+                    <li>Financial reports on demand</li>
+                </ul>
+                <p class="desc" style="color: var(--brand-accent); font-weight: bold;">No manual entries. No reconciliation headaches.</p>
+                <div class="img-wrap img-wrap-tall"><img src="images/ui1.svg" alt="Accounting Dashboard"></div>
+            </div>
+
+            <div class="feature-block reveal" id="inventory">
+                <h3 style="color: var(--text-primary); margin-bottom: 8px;">Inventory Management</h3>
+                <h2>Know exactly what you have, and what you earned</h2>
+                <ul class="feature-ul">
+                    <li>FIFO batch tracking</li>
+                    <li>Expiry date monitoring</li>
+                    <li>Supplier cost tracking</li>
+                    <li>Real-time stock visibility</li>
+                </ul>
+                <p class="desc" style="color: var(--brand-accent); font-weight: bold;">Understand true margins down to the product level.</p>
+                <div class="img-wrap img-wrap-tall"><img src="images/ui2.svg" alt="Inventory Flow"></div>
+            </div>
+
+            <div class="feature-block reveal" id="compliance">
+                <h3 style="color: var(--text-primary); margin-bottom: 8px;">Compliance Engine</h3>
+                <h2>Stay compliant without thinking about it</h2>
+                <ul class="feature-ul">
+                    <li>LHDN e-Invoicing (Malaysia)</li>
+                    <li>Automated statutory calculations</li>
+                    <li>Audit-ready records</li>
+                    <li>Tax-ready reporting</li>
+                </ul>
+                <p class="desc" style="color: var(--brand-accent); font-weight: bold;">Compliance is no longer a task. It's automatic.</p>
+            </div>
+
+            <div class="feature-block reveal" id="pos">
+                <h3 style="color: var(--text-primary); margin-bottom: 8px;">Point of Sale (POS)</h3>
+                <h2>Fast, reliable, and built for real-world usage</h2>
+                <ul class="feature-ul">
+                    <li>Offline-first system</li>
+                    <li>Syncs when internet is available</li>
+                    <li>Multi-device support</li>
+                    <li>Simple checkout experience</li>
+                </ul>
+                <p class="desc" style="color: var(--brand-accent); font-weight: bold;">Sell without interruptions.</p>
+            </div>
+
+            <div class="feature-block reveal" id="ai">
+                <h3 style="color: var(--text-primary); margin-bottom: 8px;">AI CFO</h3>
+                <h2>Your financial intelligence layer</h2>
+                <ul class="feature-ul">
+                    <li>Cash flow predictions</li>
+                    <li>Profitability insights</li>
+                    <li>Anomaly detection</li>
+                    <li>Business recommendations</li>
+                </ul>
+                <p class="desc" style="color: var(--brand-accent); font-weight: bold;">Know what's happening &mdash; and what to do next.</p>
+                <div class="img-wrap img-wrap-tall"><img src="images/ui3.svg" alt="AI Phone App" style="object-position: center; transform: scale(1.0);"></div>
+            </div>
+
+            <div class="feature-block reveal" id="whatsapp">
+                <h3 style="color: var(--text-primary); margin-bottom: 8px;">WhatsApp Integration</h3>
+                <h2>Run operations through chat</h2>
+                <ul class="feature-ul">
+                    <li>Log expenses via WhatsApp</li>
+                    <li>Check stock instantly</li>
+                    <li>Simple commands in natural language</li>
+                </ul>
+                <p class="desc" style="color: var(--brand-accent); font-weight: bold;">No training required.</p>
+            </div>
         </div>
     </div>
+
     <script src="animations.js"></script>
 </body>
 </html>
